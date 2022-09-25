@@ -1,0 +1,318 @@
+/* Font */
+
+
+
+@font-face {
+    font-family: 'ringbearermedium';
+    src: url('font/ringm___-webfont.woff2') format('woff2'),
+         url('font/ringm___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('font/montserrat-bold-webfont.woff2') format('woff2'),
+         url('font/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('font/montserrat-regular-webfont.woff2') format('woff2'),
+         url('font/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('font/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('font/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Header */
+
+.container
+{
+
+    width: 80%;
+    margin: auto;
+
+}
+
+body
+{
+    font-family: 'montserratregular', 'Trebuchet MS', Arial, sans-serif;
+    color: #ffffff;
+    background-color: #202020;
+    line-height : 1.5;
+}
+
+h1
+{
+    font-family: 'ringbearermedium', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 2.9em;
+    text-align: center;
+    text-shadow: 0 0 10px #000000;
+}
+
+a
+{
+    text-decoration: none;
+}
+a:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-style: none;
+}
+
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 2vh;
+    margin-bottom: 12vh;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo h1
+{
+    margin: 1.5vw;
+    align-items: center;
+}
+
+#logo img
+{
+    width: 7vw;
+    height: auto;
+}
+
+
+nav ul
+{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav li
+{
+    font-family: 'montserratsemibold', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 1.1em;
+    padding: 1vw;
+    margin: 1.2vw;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#p1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+#text_section
+{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: flex-start;
+    margin: 3vh 3vw;  
+    z-index: 1;
+}
+#text_section h1
+{
+    margin-bottom: 0;
+    padding-left: 2.5vw;
+}
+#text_section li
+{
+    font-family: 'montserratregular', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 1.1em;
+    
+    padding: 0.8vw;
+    margin: 0 5vw 0 3vw;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#buttons_p1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4vh 3vw;
+    z-index: 1;
+}
+
+/* CSS */
+.button-33 {
+  background-color: #D2A058;
+  border-radius: 100px;
+  box-shadow: rgba(73,62,48, .2) 0 -25px 18px -14px inset,rgba(73,62,48, .15) 0 1px 2px,rgba(73,62,48, .15) 0 2px 4px,rgba(73,62,48, .15) 0 4px 8px,rgba(73,62,48, .15) 0 8px 16px,rgba(73,62,48, .15) 0 16px 32px;
+  color:#151515;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'montserratsemibold', 'Trebuchet MS', Arial, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  padding: 10px 20px;
+  border: 0;
+  font-size: 16px;
+  margin-right: 5vw;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(73, 62, 48, 0.35) 0 -25px 18px -14px inset,rgba(73,62,48,.25) 0 1px 2px,rgba(73,62,48,.25) 0 2px 4px,rgba(73,62,48,.25) 0 4px 8px,rgba(73,62,48,.25) 0 8px 16px,rgba(73,62,48,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.button-34
+{
+    background-color: #CFAE8E;
+    border-radius: 100px;
+    box-shadow: rgba(90, 76, 57, .2) 0 -25px 18px -14px inset,rgba(90, 76, 57, .15) 0 1px 2px,rgba(90, 76, 57, .15) 0 2px 4px,rgba(90, 76, 57, .15) 0 4px 8px,rgba(90, 76, 57, .15) 0 8px 16px,rgba(90, 76, 57, .15) 0 16px 32px;
+    color:#151515;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'montserratsemibold', 'Trebuchet MS', Arial, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    padding: 10px 20px;
+    border: 0;
+    font-size: 16px;
+    margin-right: 5vw;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-34:hover {
+    box-shadow: rgba(73, 62, 48, 0.35) 0 -25px 18px -14px inset,rgba(90, 76, 57,.25) 0 1px 2px,rgba(90, 76, 57,.25) 0 2px 4px,rgba(90, 76, 57,.25) 0 4px 8px,rgba(90, 76, 57,.25) 0 8px 16px,rgba(90, 76, 57,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+#lazarus_squelette img
+{
+    position: relative;
+    width: 27vw;
+    height: auto;
+}
+
+#lazarus_squelette
+{
+    z-index: 0;
+    position: relative;
+	justify-content: flex-end;
+}
+
+
+#p2
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    
+}
+
+#angel_statue img{
+    z-index: 0;
+    width: 27vw;
+    height: auto;
+}
+
+#h1_tokenomics
+{
+    margin:0px;
+    position: relative;
+    top: 7vh;
+}
+#tokenomics_section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    margin:0;
+}
+
+.p_tokenomics
+{
+    text-align: center;
+    margin: 1vw;
+    margin-bottom: 5vw;
+    margin-top: 3vh;
+}
+.p_tokenomics img{
+    display:block;
+    margin: 0px auto;
+    width: 15vw;
+    height: auto;
+}
+
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
+
+footer ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2vh;
+    list-style: none;
+}
+footer img
+{
+    width: 5vw;
+    margin: 2vw;
+    height: auto;
+}
+
+#rights{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10vh;
+    font-family: 'montserratregular', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+}
