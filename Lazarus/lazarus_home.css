@@ -1,5 +1,5 @@
 /* Font */
-
+/* todo: when hover text goes bold then unbold, fix it */
 
 
 @font-face {
@@ -38,13 +38,12 @@
 
 }
 
-
 /* Header */
 
 .container
 {
 
-    width: 80%;
+    width: 85%;
     margin: auto;
 
 }
@@ -76,6 +75,11 @@ a:visited
     text-decoration: none;
     font-style: none;
 }
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 
 header
@@ -222,19 +226,24 @@ nav li
     transform: scale(1.05) rotate(-1deg);
   }
 
-#lazarus_squelette img
+#lazarus_squelette_hidden img
 {
     position: relative;
+    visibility: hidden;
     width: 27vw;
     height: auto;
 }
 
-#lazarus_squelette
+#lazarus_squelette img
 {
-    z-index: 0;
-    position: relative;
-	justify-content: flex-end;
+    position: absolute;
+    width: 50vw;
+    height: auto;
+    top: 11vh;
+    left: 51vw;
 }
+
+
 
 
 #p2
