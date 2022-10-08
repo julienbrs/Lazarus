@@ -52,7 +52,7 @@ body
 {
     font-family: 'montserratregular', 'Trebuchet MS', Arial, sans-serif;
     color: #ffffff;
-    background-color: #202020;
+    background-color: #242424;
     line-height : 1.5;
 }
 
@@ -244,7 +244,13 @@ nav li
 }
 
 
-
+#blur_statue img
+{
+    width: 50%;
+    height: auto;
+    top: 70vh;
+    left: 0;
+}
 
 #p2
 {
@@ -255,6 +261,7 @@ nav li
 }
 
 #angel_statue img{
+
     z-index: 0;
     width: 27vw;
     height: auto;
@@ -324,4 +331,46 @@ footer img
     font-size: 1.1em;
     color: #ffffff;
     text-decoration: none;
+}
+
+
+.hidden_left
+{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+
+}
+
+.hidden_right
+{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+
+}
+
+.visible
+{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1.5s;
+}
+
+.logo:nth-child(2)
+{
+    transition-delay: 200ms;
+}
+
+.logo:nth-child(3)
+{
+    transition-delay: 400ms;
+}
+
+.logo:nth-child(4)
+{
+    transition-delay: 600ms;
 }
