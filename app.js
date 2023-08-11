@@ -7,7 +7,7 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 });
-
+/*  */
 
 const hiddenElements_left = document.querySelectorAll('.hidden_left');
 const hiddenElements_right = document.querySelectorAll('.hidden_right');
